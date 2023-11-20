@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: artalk-go
+  env: docker
+  envVars:
+    - key: PORT
+      value: 443
