@@ -2,7 +2,7 @@
 host: "0.0.0.0"
 
 # 端口
-port: 23366
+port: 443
 
 # 加密密钥
 app_key: "Thoi9eik"
