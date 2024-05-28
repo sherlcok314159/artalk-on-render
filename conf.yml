@@ -90,7 +90,7 @@ cache:
 
 # Trusted domains
 # -- e.g. ["https://artalk.example.com:23366"] add url of your site her --
-trusted_domains: []
+trusted_domains: ["https://yunpengtai.top"]
 
 # SSL
 ssl:
