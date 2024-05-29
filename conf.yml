@@ -401,9 +401,7 @@ frontend:
   # Movable comment box
   editorTravel: true
   # Emoticons
-  emoticons:
-    https://cdn.jsdelivr.net/gh/sherlcok314159/artalk-blobcat@main/blobcat.json
-    https://cdn.jsdelivr.net/gh/ArtalkJS/Emoticons/grps/default.json
+  emoticons: https://cdn.jsdelivr.net/gh/sherlcok314159/artalk-blobcat@main/artalk-collection.json
   # Vote button
   vote: true
   # Dislike button
