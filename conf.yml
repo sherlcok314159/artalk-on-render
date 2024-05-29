@@ -91,10 +91,11 @@ cache:
 # Trusted domains
 # -- e.g. ["https://artalk.example.com:23366"] add url of your site her --
 trusted_domains: ["https://yunpengtai.top"]
-admin_users_0_name: 博主
-admin_users_0_email: 2111783652@qq.com
-admin_users_0_password: 123456Artalk!
-admin_users_0_badge_name: 管理员
+admin_users:
+  - name: "作者"
+    email: "2111783652@qq.com"
+    password: "123456Artalk!"
+    badge_name: "管理员"
 
 # SSL
 ssl:
