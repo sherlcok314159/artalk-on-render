@@ -92,10 +92,11 @@ cache:
 # -- e.g. ["https://artalk.example.com:23366"] add url of your site her --
 trusted_domains: ["https://yunpengtai.top"]
 admin_users:
-  - name: "作者"
-    email: "2111783652@qq.com"
-    password: "123456Artalk!"
-    badge_name: "管理员"
+  name: "作者"
+  email: "2111783652@qq.com"
+  password: "123456Artalk!"
+  badge_name: "管理员"
+  badge_color: "#0083FF"
 
 # SSL
 ssl:
@@ -400,7 +401,9 @@ frontend:
   # Movable comment box
   editorTravel: true
   # Emoticons
-  emoticons: https://cdn.jsdelivr.net/gh/ArtalkJS/Emoticons/grps/default.json
+  emoticons:
+    https://cdn.jsdelivr.net/gh/sherlcok314159/artalk-blobcat@main/blobcat.json
+    https://cdn.jsdelivr.net/gh/ArtalkJS/Emoticons/grps/default.json
   # Vote button
   vote: true
   # Dislike button
