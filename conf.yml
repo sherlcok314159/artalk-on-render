@@ -201,13 +201,13 @@ img_upload:
 # Email
 email:
   # Enable email notification
-  enabled: false
+  enabled: true
   # Send method ["smtp", "ali_dm", "sendmail"]
   send_type: smtp
   # Nick name of sender
   send_name: "{{reply_nick}}"
   # Email address of sender
-  send_addr: noreply@example.com
+  send_addr: tai_blog@qq.com
   # Email subject
   mail_subject: "[{{site_name}}] You got a reply from @{{reply_nick}}"
   # Email template file (set to file path to use custom template)
@@ -219,9 +219,9 @@ email:
     # Email port
     port: 587
     # Email address of sender
-    username: example@qq.com
+    username: tai_blog@qq.com
     # Password
-    password: ""
+    password: "wcxqcfhqmeixihfj"
   # Aliyun mail push
   # (set send method to "ali_dm" to enable; see: https://help.aliyun.com/document_detail/29444.html)
   ali_dm:
