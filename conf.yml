@@ -393,7 +393,7 @@ auth:
 # UI Settings
 frontend:
   # Comment box placeholder
-  placeholder: ""
+  placeholder: "请填写名称和邮箱来进行发言哦，有回复时可以通过邮箱提醒！"
   # Text to display when there is
   noComment: ""
   # Text of the send button
